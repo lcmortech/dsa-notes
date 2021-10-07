@@ -26,6 +26,6 @@ for (let i = 0; i < iceCreamFlavors.length; i++){
 }
 
 //Breakdown:
-//For each indices along the length of the array iceCreamFlavors ([i]), console log the indices for each inner array ([j]).
+//For each indices along the length of the array iceCreamFlavors ([i]), loop over and console log the indices for each inner array ([j]).
 
 //runtime: nested for loop, O(n^2)
