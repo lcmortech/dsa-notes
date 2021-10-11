@@ -11,10 +11,10 @@ class Stack {
     
     //Add element to top of stack
     push(element){
-        this.items[this.count] = element
-        this.count++
-        console.log(objject)
-        return this.count - 1
+        this.items[this.count] = element;
+        this.count++;
+        console.log(object);
+        return this.count - 1;
         
         //Breakdown
         //aka: the index of the the items array is incremented and set to each element passed through 'push', adding each element passed through to the end of the array
