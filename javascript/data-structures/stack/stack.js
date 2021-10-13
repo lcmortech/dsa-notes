@@ -11,22 +11,33 @@ class Stack {
     
     //Add element to top of stack
     push(element){
-        this.items[this.count] = element;
-        this.count++;
-        console.log(object);
-        return this.count - 1;
-        
-        //Breakdown
-        //aka: the index of the the items array is incremented and set to each element passed through 'push', adding each element passed through to the end of the array
-        //without incrementation, each element passed through would just replace the previous one
-        //returning "this.count - 1" resets the index being added to the last position
-        //console log keeps track of what's going on
-        //the index you want is this.count
-        //that index is then set to the element passed through 'push'
-        //adds 100,200, and 300 to items array, respectively
-        
+        this.items[this.count] = element
+        this.count++ //increases/lengthens array
+        console.log(object)
+        return this.count - 1
     }
+    
+    //Return and remove top element in stack
+    //Return undefined if stack is empty
+    pop(){
+        if(this.count === 0) return undefined
+        let deleteItem = this.items[this.count]
+        this.count-- //decreases/shortens array
+        
+        return deleteItem
+    }
+    
+    
 }
+        
+//Breakdown: Push
+//aka: the index of the the items array is incremented and set to each element passed through 'push', adding each element passed through to the end of the array
+//without incrementation, each element passed through would just replace the previous one
+//returning "this.count - 1" resets the index being added to the last position
+//console log keeps track of what's going on
+//the index you want is this.count
+//that index is then set to the element passed through 'push'
+//adds 100,200, and 300 to items array, respectively
 
 const stack = new Stack()
 
