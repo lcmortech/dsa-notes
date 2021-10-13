@@ -5,8 +5,8 @@
 
 class Stack {
     constructor(){
-        this.items = [] //the stack's array that's being modified
-        this.count = 0 //the index
+        this.items = []; //the stack's array that's being modified
+        this.count = 0; //the index
     }
     
     //Add element to top of stack
@@ -33,6 +33,34 @@ class Stack {
         return this.items[this.count - 1]
     }
     
+    //Check if stack is empty
+    isEmpty (){
+        console.log(this.count === 0? 'Stack is empty': 'Stack is not empty')
+        return this.count === 0
+    }
+    
+    //Check size of stack
+    size(){
+        console.log(`${this.count} elements in the stack`)
+        return this.count
+    }
+    
+    //Print elements in stack
+    print(){
+        let str = ''
+        for(let i = 0; i < this.count; i++){
+            str += this.items[i] + ' '  
+        }
+        return str
+    }
+    
+    clear(){
+        this.items = [];
+        this.count = 0;
+        console.log('Stack cleared...')
+        return this.items
+    }
+    
     
 }
         
@@ -52,6 +80,7 @@ class Stack {
 //third line - decrementing to previous index/count by one
 //returning/removing the current index
 
+//We don't want to replace the str, we want to append, so we use +=
 
 
 //Test cases
@@ -59,13 +88,23 @@ const stack = new Stack()
 
 
 stack.push(100)
-stack.push(100)
-stack.push(100)
+stack.push(200)
+stack.push(300)
+
+console.log(stack.print())
 
 stack.peek()
 
 stack.pop()
 stack.pop()
 
+stack.clear()
+
+console.log(stack.print())
+
 console.log(stack.pop())
 console.log(stack.push())
+
+stack.size()
+
+stack.isEmpty();
