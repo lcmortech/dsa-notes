@@ -21,7 +21,9 @@
 //}
 
 //Steps for Method 1 Data Structure:
-// - Create a string (const = 'Hello')
+// - Create a string (const = 'Hello') (only for example). 
+// - A function that takes in a string parameter will take its place in the actual problem
+// - Declare a new object variable
 // - Iterate through that string, and for every character, add it to a new object (const chars = {};)
 // - Either add the character as a new property and assign it a value of 1, or if we've seen it already, add 1 to it/increment it by 1
 // - For every char we find, we add a property to "chars"
@@ -45,3 +47,35 @@
 
 //       
 // - Doing this, we end up with our object
+
+//Method 1 -Steps
+
+//Direct Approach:
+//- Create a function that takes in a string parameter
+// - Declare an empty object variable
+// - Create an int/count variable and initialize it to 0.
+
+
+
+//function maxChar(str) {
+//const charMap = {};
+//let max = 0;
+//let maxChar = '';
+//
+////object starts with 'o' so don't use for of to iterate over object, use 'for in'
+//    for (let char of string) {
+//        if(!chars[char]) {
+//            chars[char] = 1;
+//        } else {
+//            chars[char]++;
+//        }
+//    }
+//    
+//    for (let char in charMap) {
+//        if (charMap[char] > max) {
+//            max = charMap[char];
+//            maxChar = char;
+//        }
+//    }
+//    return maxChar;
+//}
