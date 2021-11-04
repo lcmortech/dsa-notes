@@ -2,11 +2,11 @@ function fizzBuzz(n){
 //directions specifically state to start at 1, NOT 0
     for(let i = 1; i <= n; i++){
         if (i % 3 === 0) {
-            console.log("fizz");
+            console.log('fizz');
         } else if (i % 5 === 0) {
-            console.log("buzz");
+            console.log('buzz');
         } else if (i % 3 === 0 && i % 5 === 0) {
-                console.log("fizzbuzz");
+                console.log('fizzbuzz');
         }
         else {
             console.log(i);
@@ -24,5 +24,5 @@ function fizzBuzz(n){
 //            case (i % 3 === 0 && i % 5 === 0):
 //                console.log("fizzbuzz");
 //                break;
-//            default:
+//            default:S
 //                return i;
