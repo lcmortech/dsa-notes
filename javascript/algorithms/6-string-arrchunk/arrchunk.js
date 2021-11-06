@@ -7,3 +7,13 @@
 // - Check to see if the last element does not exist, or if its length is equal to chunk size. 
 // - If so(if), push a new chunk into 'chunked' with the current element.
 // -  Otherwise(else), add the current element into the chunk.
+
+const chunkArray = (arr) => {
+    let chunked = [];
+
+    for(let char of arr){
+        return arr[char];
+
+    }
+
+}
