@@ -13,11 +13,11 @@ const chunkArray = (arr) => {
 
     for(let char of arr){
         if (!chunked[chunked.length-1] ||  chunked[chunked.length-1] === chunked.length) {
-            chunked.push(char)
+            chunked.push(char);
         } else {
             
         }
-        
+          
     }
 
 }
