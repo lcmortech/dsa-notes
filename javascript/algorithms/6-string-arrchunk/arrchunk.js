@@ -8,6 +8,7 @@
 // - If so(if), push a new chunk into 'chunked' with the current element.
 // -  Otherwise(else), add the current element into the chunk.
 
+/* First Attempt
 const chunkArray = (arr) => {
     let chunked = [];
 
@@ -19,4 +20,5 @@ const chunkArray = (arr) => {
         }
           
     }
-}
+} */
+
