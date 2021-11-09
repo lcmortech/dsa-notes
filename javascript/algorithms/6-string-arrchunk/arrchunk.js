@@ -31,3 +31,4 @@ const chunkArray = (arr) => {
 // - along with the current char/element we're iterating through inside the new subarray/chunk
 // - In our next iteration, we go down to the else case: add the current element into the new subarray/chunk,
 // - making it the last element in our new chunk subarray
+// - the test should pass
