@@ -77,3 +77,5 @@ const chunkArray = (arr) => {
 //    
 //    return chunked;
 //}
+
+//module.exports = chunk;
