@@ -63,3 +63,17 @@ const chunkArray = (arr) => {
 // - While index is less than array.length
 // -- Push a slice of length 'size' from 'array' into 'chunked'
 // -- Add 'size' to 'index' of 'chunked'
+
+//Method 2 Slice Example:
+
+//function chunk(arr, size) {
+//    const chunked = [];
+//    let index = 0; //use let since it will change over time
+//    
+//    while (index < arr.length) {
+//      chunked.push(arr.slice(index, index + size));
+//      index += size;
+//    }
+//    
+//    return chunked;
+//}
