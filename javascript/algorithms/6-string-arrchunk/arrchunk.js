@@ -23,6 +23,7 @@ const chunkArray = (arr) => {
 } */
 
 //Method 1 In-Depth:
+// - Function takes two parameters
 // - We assume our chunk function gets called on an array with 3 elements inside
 // - We begin to iterate over our original unchunked array
 // - For each element in unchunked array:
@@ -49,3 +50,16 @@ const chunkArray = (arr) => {
 //    
 //    return chunked;
 //}
+
+//Method 2 Slice Method:
+
+//letters.slice(0,3)
+//start index, second arg ending index (exclusive, so it only returns up to index 2 in this instance)
+//does not include index 3
+
+//Steps:
+// - Create empty 'chunked' array
+// - Create 'index' at 0
+// - While index is less than array.length
+// -- Push a slice of length 'size' from 'array' into 'chunked'
+// -- Add 'size' to 'index' of 'chunked'
