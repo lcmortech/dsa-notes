@@ -7,3 +7,18 @@
 // - attach the method .toLowerCase to the same str.replace
 
 
+//Method one example:
+//function anagrams(strA, strB) {
+//    const aCharMap = buildCharMap(strA);
+//    const bCharMap = buildCharMap(strB);
+//    
+//    if (Object.keys(aCharMap).length !== Object.keys(bCharMap).length){
+//        return false;
+//    }
+//    
+//    for (let char in aCharMap) {
+//        if (aCharMap[char] !== bCharMap[char]){
+//            return false;
+//        }
+//    }
+//}
