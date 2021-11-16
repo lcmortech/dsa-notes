@@ -27,6 +27,7 @@
 //Method two:
 // - Create a function that takes in a string
 // - Create an empty string called 'result'
+// - 'result' will act as the first character of the input string capitalized
 // - For each character in the string:
     // - If the character is to the left of a space,
     // - Capitalize it and add it to the 'result'
