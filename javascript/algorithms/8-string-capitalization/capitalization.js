@@ -34,3 +34,18 @@
     // - Else, add it to 'result'
 
 // Warning: For of loop attempts to iterate through every character, so we don't want to use it in this method
+
+
+//Method two example:
+//function capitalize(str){
+//    let result = str[0].toUpperCase();
+//    
+//    for(let i = 0; i < str.length; i++){
+//        if(str[i - 1] === ' '){
+//            result += str[i].toUpperCase();
+//        } else {
+//            result += str[i];
+//        }
+//    }
+//    return result;
+//}
