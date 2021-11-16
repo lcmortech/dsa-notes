@@ -32,3 +32,5 @@
     // - If the character is to the left of a space,
     // - Capitalize it and add it to the 'result'
     // - Else, add it to 'result'
+
+// Warning: For of loop attempts to iterate through every character, so we don't want to use it in this method
