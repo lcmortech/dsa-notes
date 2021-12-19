@@ -1,5 +1,6 @@
 class LinkedList{
-    constructor(){
+    constructor(element){
+        this.element = null;
         this.head = null;
         this.size = 0;
 
