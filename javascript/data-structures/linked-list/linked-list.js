@@ -25,4 +25,4 @@ class LinkedList{
 
 //The aim when removing a node will be to disconnect it
 //from the other nodes, or pointers
-//once there are no more pointers, the node disappears
+//once there are no more pointers, the node will disappear
