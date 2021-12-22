@@ -24,7 +24,9 @@ class LinkedList {
         else {
             this.tail = newNode;
         }
-        this.head = newNode;
+        this.head = newNode; //updates Head
+        this.size++;
+        return newNode;
     }
     
     
