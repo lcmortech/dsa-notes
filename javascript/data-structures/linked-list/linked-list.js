@@ -6,7 +6,13 @@ class Node {
 
     }
 
-class
+class LinkedList {
+    constructor(){
+        this.head = null; //root node
+        this.tail = null; //last element of the list
+        this.size=0; //initial size
+    }
+}
     
     //Insert first node
     
