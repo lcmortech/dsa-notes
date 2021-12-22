@@ -1,10 +1,12 @@
-class LinkedList{
+class Node {
     constructor(element){
-        this.element = null;
-        this.head = null;
-        this.size = 0;
+        this.element = element;
+        this.next = null;
+        this.previous = null;
 
     }
+
+class
     
     //Insert first node
     
