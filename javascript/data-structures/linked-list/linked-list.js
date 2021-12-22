@@ -14,8 +14,18 @@ class LinkedList {
     }
 }
     
-    //Insert first node
-    
+    //Insert first node. Adds element to start of list (unshift) [O(1)]
+    addHead(val){
+        const newNode = new Node(val);
+        newNode.next = this.head;
+        if (this.head){
+            this.head.previous = newNode;
+        } 
+        else {
+            this.tail = newNode;
+        }
+        this.head = newNode;
+    }
     
     
     //Insert last node
