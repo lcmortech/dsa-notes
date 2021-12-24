@@ -14,7 +14,7 @@ class LinkedList {
     }
 }
     
-    //Insert first node. Adds element to start of list (unshift) [O(1)]
+    //Insert first node (head). Adds element to start of list (unshift) [O(1)]
     addHead(val){
         const newNode = new Node(val);
         newNode.next = this.head;
@@ -30,7 +30,7 @@ class LinkedList {
     }
     
     
-    //Insert last node (push) [O(1)]
+    //Insert last node (tail). Adds element to end of list (push) [O(1)]
     
     
     
