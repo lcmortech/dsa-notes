@@ -31,7 +31,24 @@ class LinkedList {
     
     
     //Insert last node (tail). Adds element to end of list (push) [O(1)]
-    
+    addTail(tail){
+        const newNode = new Node(value);
+
+        if(this.head) {
+            newNode.previous = this.tail;
+        }
+
+        this.tail.next = newNode;
+        this.tail = newNode;
+        
+        else {
+            this.head = newNode;
+            this.tail = newNode;
+        }
+
+        this.size++;
+        return newNode;
+    }
     
     
     
