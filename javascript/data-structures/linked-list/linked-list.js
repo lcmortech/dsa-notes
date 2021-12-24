@@ -30,7 +30,7 @@ class LinkedList {
     }
     
     
-    //Insert last node
+    //Insert last node (push) [O(1)]
     
     
     
