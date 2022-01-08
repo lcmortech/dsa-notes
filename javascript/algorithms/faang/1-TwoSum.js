@@ -4,15 +4,19 @@
 
 //You can return the answer in any order.
 
-//Brute Force Solution
-const TwoSum = (nums, target) => {
+//Naive Solution
+const twoSum = (nums, target) => {
     for(p1 in nums) {
         const missingVal = target - nums[p1];
 
         for (p2 in nums) {
-            missingVal ? nums[p2] : 
+            if(missingVal === nums[p2]){
+                return [p1,p2];
+            }
         }
     }
 }
 
-module.exports = TwoSum
+module.exports = twoSum;
+
+
