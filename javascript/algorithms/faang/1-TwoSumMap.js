@@ -5,7 +5,24 @@
 //You can return the answer in any order.
 
 //Optimized Solution
-const twoSumMap = (nums, target) => {
+const twoSumMap = () => {
+  const numsMap = {};
+  for(pointer in nums) {
+    const pointerVal = nums[pointer];
+    const currMapVal = target - currMapVal.pointerVal;
+
+    if(currMapVal >= 0) {
+      return [currMapVal, pointer];
+    }
+    else {
+      const missingVal = target - nums[pointer];
+    }
+  }
+  return null;
+};
+
+//Optimized Solution 2
+const twoSumMapTwo = (nums, target) => {
     const map = {};
     for (let i = 0; i < nums.length; i++) {
       const another = target - nums[i];
@@ -16,6 +33,6 @@ const twoSumMap = (nums, target) => {
       map[nums[i]] = i;
     }
     return null;
-}
+};
 
 module.exports = twoSumMap;

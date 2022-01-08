@@ -15,6 +15,7 @@ const twoSum = (nums, target) => {
             }
         }
     }
+    return null;
 }
 
 module.exports = twoSum;

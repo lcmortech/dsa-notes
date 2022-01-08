@@ -1,4 +1,4 @@
-const twosum = require('./1-TwoSum');
+const twosum = require('./1-TwoSum.js');
 
 
 //Input: nums = [2,7,11,15], target = 9
