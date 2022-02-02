@@ -22,7 +22,8 @@ const uncompress = (str) => {
 }
 
 //concat = O(n) time complexity
-//push = O(1) time complexity
+
+//ALT - Optimized method, using array instead of string for results, before converting back to string using 'join' method
 
 /*const uncompress = (str) => {
     nums = '0123456789' //for reference
@@ -44,8 +45,7 @@ const uncompress = (str) => {
         }
     }
 
-    return result
+    return result.join('')
 } */
 
-//concat = O(n) time complexity
 //push = O(1) time complexity
