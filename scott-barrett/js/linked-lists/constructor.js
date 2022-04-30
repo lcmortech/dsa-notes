@@ -37,7 +37,4 @@ class LinkedList {
 }
 
 let myLinkedList = new LinkedList(4)
-
-
-
 */
