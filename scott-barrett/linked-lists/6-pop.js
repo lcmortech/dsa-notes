@@ -36,12 +36,29 @@ class LL {
     }
 
     pop() {
-        if(!head) {
-            return null
+        if(!this.head) {
+            return undefined //not null
         }
-        else {
-            return this.length - 1
+            let temp = this.head
+            let prev = this.head
+
+            while(temp.next) { //while its the case
+                prev = temp
+                temp = temp.next
+            }
+            this.tail = prev
+            this.tail.next = null
             this.length -= 1
-        }
+            if (this.length === 0) {
+                this.head = null
+                this.tail = null
+            }
+            return temp  
     }
 }
+
+let myLL = new LL(1)
+myLL.push(2)
+console.log(myLL)
+myLL.pop()
+console.log(myLL)
