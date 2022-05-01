@@ -28,6 +28,7 @@ class LinkedList {
             this.tail = newNode
         } else {
             this.tail.next === newNode
+            this.tail = newNode
         }
         this.length += 1
         return this //this entire linkedlist w/ node add

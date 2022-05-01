@@ -57,9 +57,3 @@ class LL {
             return temp  
     }
 }
-
-let myLL = new LL(1)
-myLL.push(2)
-console.log(myLL)
-myLL.pop()
-console.log(myLL)
