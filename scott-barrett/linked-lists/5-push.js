@@ -14,7 +14,7 @@ class NodeClass {
 
 class LinkedList {
     constructor(value){
-        const newNode = new NodeClass(1)
+        const newNode = new NodeClass(value)
         this.head = newNode
         this.tail = newNode
         this.length = 1
