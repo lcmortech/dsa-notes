@@ -57,7 +57,7 @@ class LL {
             return temp  
     }
 
-    unshift(val) {
+    unshift(value) {
         const newNode = new NodeClass(val)
         if(!this.head){
             this.head = newNode
