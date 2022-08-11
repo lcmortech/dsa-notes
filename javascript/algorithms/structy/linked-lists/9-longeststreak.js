@@ -22,3 +22,8 @@ const longestStreak = (head) => {
   
   return maxStreak;
 };
+
+//Notes
+//n = number of nodes
+//Time: O(n)
+//Space: O(1)
