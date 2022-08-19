@@ -26,8 +26,3 @@
 
 
 
-
-// const findTwoSum = function (array, target) {
-//     const hashMap = {}
-
-//     const findNum = target - array
