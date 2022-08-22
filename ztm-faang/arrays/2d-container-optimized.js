@@ -13,3 +13,13 @@ const getMaxWaterContainer = function(heights){
     }
     return maxArea
 }
+
+/*
+Here, the runtime becomes O(n), due to being cut down to one loop
+- This is also our first introduction to the "two pointer" method of traversing an array
+- Like in the brute solution, we loop through until we get the last element for b,
+followed by the last element for a in the formula.
+area = min(a,b) * (bi - ai)
+        left element * width
+width equal to the index of b, subtracted by the index of a
+*/
