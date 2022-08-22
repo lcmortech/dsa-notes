@@ -10,3 +10,12 @@ const getMaxWaterContainer = function(heightsArray) {
     }
     return maxArea
 }
+
+/*
+FORMULA
+min(a, b) * (index of b - index of a)
+New max area is now equal to 4
+- Repeat loop, replacing the max area with the new one
+- We only care about the smaller value (min) in the formula, because the largest is
+already a given
+*/
