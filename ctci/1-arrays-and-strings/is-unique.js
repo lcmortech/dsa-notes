@@ -49,3 +49,6 @@ function isUniqueCharBit(str) {
 isUniqueCharBit('happy days')
 isUniqueCharBit('silver spoon')
 isUniqueCharBit('buckwheat84')
+
+//TC: O(n log(n))
+//SC: O(1)
