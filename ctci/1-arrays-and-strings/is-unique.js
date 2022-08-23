@@ -27,3 +27,7 @@ function isUniqueChar(str){
 isUniqueChar('happy days')
 isUniqueChar('silver spoon')
 isUniqueChar('buckwheat84')
+
+//TC: O(n)
+//SC: O(1) - fixed array, O(n) - dynamic array
+
