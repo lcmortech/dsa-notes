@@ -20,8 +20,8 @@ function isUniqueChar(str){
         } else {
             char_set[val] = true
         }
-        return true
     }
+    return true
 }
 
 isUniqueChar('happy days')
@@ -31,3 +31,21 @@ isUniqueChar('buckwheat84')
 //TC: O(n)
 //SC: O(1) - fixed array, O(n) - dynamic array
 
+//BIT VECTOR SOLVE
+
+function isUniqueCharBit(str) {
+    let checker = 0
+    for (let i = 0; i < str.length; i++){
+        let val = str.charAt(i) - 'a'
+        if((checker & (1 << val)) > 0){
+            return false
+        } else{
+            checker |= (1 << val)
+        }
+    }
+    return true
+}
+
+isUniqueCharBit('happy days')
+isUniqueCharBit('silver spoon')
+isUniqueCharBit('buckwheat84')
