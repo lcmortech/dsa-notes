@@ -1,15 +1,28 @@
-//String Access
+/*
+String Access
 
-//charAt()/charCodeAt()
-//'dog'.chareAt(1) -> 'o'
-//'dog'.charCodeAt(o) -> 1
+charAt()/charCodeAt()
+'dog'.chareAt(1) -> 'o'
+'dog'.charCodeAt(o) -> 1
 
-//Substring -> (start index, end index)
-//'Youtube'.substring(1,2) -> 'o'
-//Substring -> (start index) (doesn't end till string ends)
-//'Youtube'.substring(1) -> 'outube'
+Substring -> (start index, end index)
+'Youtube'.substring(1,2) -> 'o'
+Substring -> (start index) (doesn't end till string ends)
+'Youtube'.substring(1) -> 'outube'
 
-//String Comparison
-//var a = 'a'
-//var b = 'b'
-//console.log(a < b) prints true
+String Comparison
+var a = 'a'
+var b = 'b'
+console.log(a < b) prints true
+
+String Search - To find a specific string within a string, you can use .indexOf(searchValue[, fromIndex]). This takes a parameter that is the string to be searched as well as an optional parameter for the starting index for the search. It returns the position of the matching string, but if nothing is found, then -1 is returned. Note that this function is case sensitive.
+
+'Red Dragon'.indexOf('Red') // returns 'o'
+'Red Dragon'.indexOf('Red'); // returns 0
+'Red Dragon'.indexOf('RedScale'); // returns -1 3 
+'Red Dragon'.indexOf('Dragon', 0); // returns 4
+'Red Dragon'.indexOf('Dragon', 4); // returns 4
+'Red Dragon'.indexOf(", 9); // returns 9
+
+
+*/
