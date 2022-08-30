@@ -31,4 +31,10 @@ startsWith()/endsWith(): Finally, startsWith returns true (boolean) if the strin
 'Red Dragon'.endsWith('Dragon'); // returns true
 'Red Dragon'.startsWith('Dragon'); // returns false
 'Red Dragon'.endsWith('Red'); // returns false
+
+- To check for the occurence of a search string inside a larger stirng, simply check whether -1 was returned from .indexOf.
+
+function existsInString(stringValue, search){
+    return stringValue.indexOf(search) !== -1
+}
 */
