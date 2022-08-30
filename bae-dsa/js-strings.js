@@ -37,4 +37,22 @@ startsWith()/endsWith(): Finally, startsWith returns true (boolean) if the strin
 function existsInString(stringValue, search){
     return stringValue.indexOf(search) !== -1
 }
+
+- You can use an additional parameter to search adter a certain index in a string. An example is counting occurences of certain letters. In the following example, the occurences of the character 'a' will be counted
+
+let str = 'He's my king, from this day until his last day.'
+let count = 0
+let pos = str.indexOf('a)
+
+while (pos !== 1){
+    count++
+    pos = str.indexOf('a', pos + 1)
+}
+
+Finally, startsWith returns true(a boolean values) if the string starts with the specified input, and endsWith checks whether the string ends with the specified input.
+
+'Red Dragon' .startsWith('Red') //returns true
+'Red Dragon' .endsWith('Dragon') //returns true
+'Red Dragon' .starts\With('Dragon') //returns false
+'Red Dragon' .endsWith('Red') //returns false
 */
