@@ -10,10 +10,6 @@ Substring -> (start index, end index)
 Substring -> (start index) (doesn't end till string ends)
 'Youtube'.substring(1) -> 'outube'
 
-String Comparison
-var a = 'a'
-var b = 'b'
-console.log(a < b) prints true
 
 String Search - 
 
