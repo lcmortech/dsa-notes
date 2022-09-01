@@ -1,6 +1,5 @@
 /*
-String Search - 
-
+STRING SEARCH
 indexOf: To find a specific string within a string, you can use .indexOf(searchValue[, fromIndex]). This takes a parameter that is the string to be searched as well as an optional parameter for the starting index for the search. It returns the position of the matching string, but if nothing is found, then -1 is returned. Note that this function is case sensitive.
 
 'Red Dragon'.indexOf('Red') // returns 'o'

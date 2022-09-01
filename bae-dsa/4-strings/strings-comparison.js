@@ -1,5 +1,5 @@
 /*
-String Comparison
+STRING COMPARISON
 - Most programming languages have a function that allows you to compare strings. In Javascript, this can be done simply by using less-than and greater-than operators.
 var a = 'a'
 var b = 'b'
