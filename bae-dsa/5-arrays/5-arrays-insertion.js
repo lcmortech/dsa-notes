@@ -8,4 +8,6 @@ for is the most common method of iteration. It is most often used in this form: 
 console.log(array1[i]);
 
 The previous code simply means initialize the variable i, check whether the condition is false before executing the body (i,len), and then modify (i++) until the condition is false. Similiarly, you can use a while loop. However, the counter will have to be set aside.
+
+ipad test1
 */
