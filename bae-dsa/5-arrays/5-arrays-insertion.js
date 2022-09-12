@@ -6,4 +6,6 @@ for (Variables; Condition; Modification)
 for is the most common method of iteration. It is most often used in this form: 1 for ( var i=0, len=array1.length; i<len; i++ ) {
 2 3}
 console.log(array1[i]);
+
+The previous code simply means initialize the variable i. 
 */
