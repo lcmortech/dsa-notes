@@ -10,4 +10,11 @@ let array1 = [1,2,3,4]
 array1.slice(1,2) //returns 2
 array1.slice(2,4) //returns [3,4]
 array1 = [1,2,3,4]
+
+If only the beginning index is passed, the ending will be assumed to be the maximum index.
+
+array1.slice(1) //returns [2,3,4]
+array1 = [1,2,3,4]
+array.slice(1,4) //returns [2,3,4]
+array1 = [1,2,3,4]
 */
