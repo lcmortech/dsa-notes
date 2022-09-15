@@ -33,4 +33,18 @@ array2[0] = 5
 
 array1 //[5,2,3,4]
 array2 //[5,2,3,4]
+
+//.from()
+The changing element of array2 changed the original array by accident because it is a reference to the original array. To create a new array, you can use .from().
+
+let array1 = [1,2,3,4]
+let array2 = Array.from(array1)
+
+array1 //[1,2,3,4]
+array2 //[1,2,3,4]
+
+array2[0] = 5
+
+array1 //[1,2,3,4]
+array2 //[5,2,3,4]
 */
