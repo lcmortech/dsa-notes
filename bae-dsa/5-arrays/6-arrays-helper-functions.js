@@ -17,4 +17,20 @@ array1.slice(1) //returns [2,3,4]
 array1 = [1,2,3,4]
 array.slice(1,4) //returns [2,3,4]
 array1 = [1,2,3,4]
+
+If nothing is passed, this function simply returns a copy of the array. It should be noted that array1.slice() === array1 evaluates to "false". This is because although the contenfs of the array are the same, the memory addresses at which those arrays reside are different.
+array1.slice() //returns [1,2,3,4]
+
+This is useful for copying an array in Javascript. Remember that arrays in Javascript are reference-based, meaning that if you assign a new variable to an array, changes to that variable apply to the original array.
+
+let array1 = [1,2,3,4]
+array2 = array1
+
+array1 //[1,2,3,4]
+array2 //[1,2,3,4]
+
+array2[0] = 5
+
+array1 //[5,2,3,4]
+array2 //[5,2,3,4]
 */
