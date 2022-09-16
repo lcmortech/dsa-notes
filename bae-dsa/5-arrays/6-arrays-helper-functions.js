@@ -47,4 +47,6 @@ array2[0] = 5
 
 array1 //[1,2,3,4]
 array2 //[5,2,3,4]
+
+.from() takes O(n), where n is the size of the array. This is intuitive because copying the array requires all n elements of the array.
 */
