@@ -79,6 +79,7 @@ array1 = [1,[5,6,7],4]
 
 .splice() is, worst case, O(n). Similarly to copying, if the range specified is the whole array, each n item has to be removed.
 
+====
 //.concat()
 This adds new elements to the array at the end of the array and returns the array.
 
@@ -87,6 +88,7 @@ array1.concat() //returns [1,2,3,4]
 array1.concat([2,3,4]) //returns [1,2,3,4,2,3,4]
 array1 = [1,2,3,4]
 
+====
 //.length Property
 The .length property returns the size of the array.
 let array1 = [1,2,3,4]
