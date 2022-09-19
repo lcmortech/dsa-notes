@@ -88,5 +88,8 @@ array1.concat([2,3,4]) //returns [1,2,3,4,2,3,4]
 array1 = [1,2,3,4]
 
 //.length Property
-The .length proper
+The .length property returns the size of the array.
+let array1 = [1,2,3,4]
+console.log(array1.length) //prints 4
+array1.length = 3 // array1 = [1,2,3]
 */
