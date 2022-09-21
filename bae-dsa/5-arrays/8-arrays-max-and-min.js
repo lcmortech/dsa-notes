@@ -1,7 +1,7 @@
 /*
 //MAX AND MIN
 //Math.max and Math.min
-Both the Math.max and Math.min functions take an unlimited number of parameters, so you can use the spread operator for the following operations.
+Both the Math.max() and Math.min() functions take an unlimited number of parameters, so you can use the spread operator for the following operations.
 
 To find the maximum in an array, use this:
 
