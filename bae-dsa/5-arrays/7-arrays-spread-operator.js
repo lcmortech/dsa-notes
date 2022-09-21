@@ -7,5 +7,5 @@ function addFourNums(a,b,c,d) {
 }
 let numbers = [1,2,3,4]
 
-console.log(addFourNumbers(...numbers)) //10
+console.log(addFourNumbers(...numbers)) // 10
 */
