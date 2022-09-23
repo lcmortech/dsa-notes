@@ -24,7 +24,8 @@ Space Complexity: O(1)
 Let's think about how to do this in lineat time of O(n).
 What if any previously seen array elements were stored and could be checked easily?
 Here's the input:
-
+let arr = [1,2,3,4,5]
+let weight = 9
 */
 
 findSum([1,2,3,4],7)
