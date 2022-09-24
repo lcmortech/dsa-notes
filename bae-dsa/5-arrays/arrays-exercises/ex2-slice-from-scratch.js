@@ -15,3 +15,10 @@ function arraySlice(array, startIndex, endIndex) {
     }
     return partArray
 }
+
+//Test cases:
+arraySlice([1,2,3,4], 1, 2) //[2]
+arraySlice([1,2,3,4],2,4) //[3,4]
+
+//Time Complexity: O(n)
+//Space Complexity: O(n)
