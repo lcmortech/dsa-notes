@@ -5,7 +5,9 @@ describe('filter funtion',() => {
             {id: 2, url: 'https://www.url2.dev'},
             {id: 3, url: 'https://www.link3.dev'}
         ]
-        //actual test
+        const output = [{id: 3, url: 'https://www.link3.dev'}]
+
+        expect(filterByTerm(input, 'link')).toEqual(output)
     })
     //test stuff
 })
