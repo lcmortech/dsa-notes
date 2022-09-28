@@ -1,10 +1,6 @@
-function filterByTerm(inputArr, searchTerm){
-    return inputArr.filter(function(arrayElement){
-        return arrayElement.url.match(regex)
-    })
-}
+//example jest test
 
-describe('filter funtion',() => {
+describe('filter function',() => {
     test('it should filter by a search term(link)',() => {
         const input = [
             {id: 1, url: 'https://www.url1.dev'},
@@ -19,5 +15,11 @@ describe('filter funtion',() => {
     })
     //test stuff
 })
+
+function filterByTerm(inputArr, searchTerm){
+    return inputArr.filter(function(arrayElement){
+        return arrayElement.url.match(regex)
+    })
+}
 
 //accidentally pushed github changes early 9-25-2022
