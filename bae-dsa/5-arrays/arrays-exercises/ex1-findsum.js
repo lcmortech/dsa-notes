@@ -2,10 +2,10 @@
 Problem: Given the array arr, find and return two indices of the array that add up to weight or return -1 if there is no combination that adds up to weight.
 */
 
-function findSum(array, target){
-    for(let i in array){
+function findSum(arr, t){
+    for(let i in arr){
         for(let j in i){
-            if(i + j === target){
+            if(i + j === t){
                 return [i,j]
             }
             else {
@@ -14,6 +14,11 @@ function findSum(array, target){
         }
     }
 }
+
+module.exports = findSum
+
+
+
 
 /*
 This solution iterates through an array looking to see whether a matching pair exists.
