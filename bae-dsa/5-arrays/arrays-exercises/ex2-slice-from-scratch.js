@@ -22,3 +22,5 @@ arraySlice([1,2,3,4],2,4) //[3,4]
 
 //Time Complexity: O(n)
 //Space Complexity: O(n)
+
+module.exports = arraySlice;
